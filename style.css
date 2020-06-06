@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+
+    
+.wraper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(0deg, #47ffb1 0%, #0eb36d 100%);
+ 
+    
+}
+
+.today-feelings {
+    font-size: 3em;
+    font-family: monospace;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+#feelings {
+    border: none;
+    padding: 10px;
+    background-color: tomato;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 800;
+}
+ 
+select option {
+    font-size: 20px;
+    color: white;
+}
+
+.appear-text {
+    font-size: 2rem;
+    font-family: monospace;
+    color: #0b5552;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
